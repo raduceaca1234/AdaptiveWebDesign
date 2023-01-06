@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Lect. PhD. Radu Ceaca</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,100">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,500,500italic,700,900">
+       
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+    </head>
+    <body>
+
+        <section id="pageloader">
+            <div class="loader-item fa fa-spin colored-border"></div>
+        </section>
+
+        <header class="site-header container-fluid">
+            <div class="main-header">
+                <div class="row">
+                    <div class="menu-wrapper col-md-12 col-sm-9 col-xs-6">
+                        <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                        <ul class="sf-menu hidden-xs hidden-sm">
+                            <li><a href="index.html">About Me</a></li>
+                            <li><a href="projects-2.html">Courses</a>
+                                <ul>
+                                    <li><a href="project-details2.html">Object-Oriented Programming</a></li>
+                                    <li><a href="project-details1.html">Fundamentals of Programming</a></li>
+                                    <li><a href="project-details3.html">Software Design</a></li>
+                                    <li><a href="project-details4.html">Data Structures and Algorithms</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="blog.html">Blog</a>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div> 
+            <div id="responsive-menu">
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="projects-2.html">Courses</a>
+                        <ul>
+                            <li><a href="project-details2.html">Object-Oriented Programming</a></li>
+                            <li><a href="project-details1.html">Fundamentals of Programming</a></li>
+                            <li><a href="project-details3.html">Software Design</a></li>
+                            <li><a href="project-details4.html">Data Structures and Algorithms</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="section-header1">
+                    </div> 
+                </div> 
+                <div class=".project-detail row">
+                    <div class="project-infos col-md-12">
+                        <div class="box-content">
+                            <h2 class="project-title">Troubles with Error Messages</h2>
+                            <span class="project-subtitle">Jul 13, 2022</span>
+                            <p>Error messages, in theory, are there to help programmers. Of course there are problems with then in practice. With students, the biggest problem is that  they don’t read the messages. I’ve long ago lost count of the times a student told me they had an error but can’t tell me what it is (or was) because they closed it without reading it.  Getting students to read the message and to try to work out the problem themselves can be a struggle but one we have to attempt.</p>
+                            <p>Seems simple enough but that can be deceiving. Often the message doesn’t actually give the right line. The reasons for this can be complicated for a beginner, or even an experienced programmer, to understand. It is a constant source of frustration.  At least one knows that a missing curly brace is (probably) the problem even if we are not really sure where it is missing from.</p>
+                            <p>Why are error messages less than helpful? Many reasons. One is that error messages are not fun and interesting to write. There are also strict limitations on the number of characters allowed. Still another is that the person writing the message is often so familiar with the software and the error that they write something that, while meaningful to them, is somewhat opaque to people newer to the software.</p>
+                            <p>Reading error messages is not just a problem for students of course. When I was doing technical support for professional developers I would regularly get calls asking to explain an error message. A little secret here – a good explanation could often be found in the documentation! More than once I just looked up a message and read from the documentation. Even the explanation in the documentation needs a little help sometimes but it is a great place to start.</p>
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.loader-item').fadeOut();
+                    $('#pageloader').delay(350).fadeOut('slow');
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+        </script>
+        
+    </body>
+</html>

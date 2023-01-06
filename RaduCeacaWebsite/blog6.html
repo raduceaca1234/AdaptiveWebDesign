@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Lect. PhD. Radu Ceaca</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,100">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,500,500italic,700,900">
+       
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+    </head>
+    <body>
+
+        <section id="pageloader">
+            <div class="loader-item fa fa-spin colored-border"></div>
+        </section>
+
+        <header class="site-header container-fluid">
+            <div class="main-header">
+                <div class="row">
+                    <div class="menu-wrapper col-md-12 col-sm-9 col-xs-6">
+                        <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                        <ul class="sf-menu hidden-xs hidden-sm">
+                            <li><a href="index.html">About Me</a></li>
+                            <li><a href="projects-2.html">Courses</a>
+                                <ul>
+                                    <li><a href="project-details2.html">Object-Oriented Programming</a></li>
+                                    <li><a href="project-details1.html">Fundamentals of Programming</a></li>
+                                    <li><a href="project-details3.html">Software Design</a></li>
+                                    <li><a href="project-details4.html">Data Structures and Algorithms</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="blog.html">Blog</a>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+            </div>
+            <div id="responsive-menu">
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="projects-2.html">Courses</a>
+                        <ul>
+                            <li><a href="project-details2.html">Object-Oriented Programming</a></li>
+                            <li><a href="project-details1.html">Fundamentals of Programming</a></li>
+                            <li><a href="project-details3.html">Software Design</a></li>
+                            <li><a href="project-details4.html">Data Structures and Algorithms</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="section-header1">
+                    </div> 
+                </div> 
+                <div class=".project-detail row">
+                    <div class="project-infos col-md-12">
+                        <div class="box-content">
+                            <h2 class="project-title">Planning Before Coding</h2>
+                            <span class="project-subtitle">Aug 21, 2022</span>
+                            <p>After all these years one would think I would know better. But it turns out that when coding for fun I don’t always do the planning that I should. It always comes back to hurt me. If you have been reading this blog lately you know that I have been playing with a Wordle solver. It’s going well. But ..                      </p>
+                            <p>I started well. I identified several thins my solver should look for:</p>
+                            <ul class="list">
+                                <li>Words that include letters I know are in the word</li>
+                                <li>Words that don’t include letters I know are not in the word</li>
+                                <li>Words where a letter (or letters) are in specific positions</li>
+                                <li>Words that include required letters that are not in positions I know they don't  belong</li>
+                            </ul>
+                            <p>I coded up the first two options first and a partial implementation of the third option. So far so good. The problem came when I wanted to add an implementation of the fourth option and a more complete implementation of the third. The problem is that I had neglected to plan for where in the code I would do those checks. I tried tossing them in to the existing method but it was a mess. I had to change a good bit of the code around filtering words to make it both work and be more understandable. </p>
+                            <p>In hindsight, I think I would have been better off creating stub methods for all the options and filling them in one by one. It’s a technique I recommend to students all the time so I should have thought of it myself. This would have given me a stronger framework from the beginning and made my life easier.</p>
+                            <p>In any case, this exercise was a reminder not to start coding before enough of the planning has been done. I know the mod these days is to write fast and break things with a lot of rewriting. I find that to be less than ideal for me though.</p>
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.loader-item').fadeOut();
+                    $('#pageloader').delay(350).fadeOut('slow');
+                $('body').delay(350).css({'overflow-y':'visible'});
+            })
+        </script>
+        
+    </body>
+</html>
