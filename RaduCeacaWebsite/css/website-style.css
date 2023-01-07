@@ -144,7 +144,7 @@ body {
 }
 
 a {
-  color: #f57622;
+  color: #f46100;
   text-decoration: none;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -222,8 +222,8 @@ input.mainBtn {
   transition: all 200ms ease-in-out;
 }
 input.mainBtn:hover {
-  color: #f57622;
-  border-color: #f57622;
+  color: #f46100;
+  border-color: #f46100;
 }
 
 .site-header {
@@ -315,10 +315,10 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   color: #fff;
 }
 .main-header .menu-wrapper ul li a:hover {
-  color: #f57622;
+  color: #f46100;
 }
 .main-header .menu-wrapper ul li.active a {
-  color: #f57622;
+  color: #f46100;
   font-weight: bold;
 }
 .main-header .menu-wrapper ul li ul {
@@ -359,7 +359,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   color: #777777 !important;
 }
 .main-header .menu-wrapper ul li ul li a:hover {
-  color: #f57622 !important;
+  color: #f46100 !important;
 }
 .main-header .menu-wrapper ul li ul li:after {
   display: none;
@@ -433,7 +433,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 }
 
 .colored-border {
-  border-color: #f57622 !important;
+  border-color: #f46100 !important;
 }
 
 .loader-item {
@@ -576,8 +576,8 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   color: white;
 }
 .overlay-b .overlay-inner a:hover {
-  color: #f57622;
-  border-color: #f57622;
+  color: #f46100;
+  border-color: #f46100;
 }
 
 h3.grid-heading {
@@ -619,7 +619,7 @@ h3.grid-heading {
   color: #2c2c2c;
 }
 .project-item .project-detail h2 a:hover {
-  color: #f57622;
+  color: #f46100;
 }
 .project-item:hover .overlay-b {
   opacity: 1;
@@ -640,7 +640,7 @@ h3.grid-heading {
   padding: 8px 16px;
 }
 .filter-categories ul li.active span {
-  background: #f57622;
+  background: #f46100;
   color: white;
   border-bottom: 1px solid #e97e0a;
 }
@@ -681,7 +681,7 @@ h3.grid-heading {
   display: inline-block;
   margin-right: 50px;
   font-family: "Open Sans Slab", serif;
-  color: #39F;
+  color: rgb(6, 110, 215);
 }
 
 .project-infos ul.project-meta li:last-child {
@@ -743,7 +743,7 @@ h3.grid-heading {
   color: #000;
 }
 .post-masonry2 .blog-body h3.post-title a:hover {
-  color: #f57622;
+  color: #f46100;
 }
 
 .post-masonry2 .blog-body p.post-parag {
@@ -774,7 +774,7 @@ h3.grid-heading {
   color: #000;
 }
 .post-masonry .blog-body h3.post-title a:hover {
-  color: #f57622;
+  color: #f46100;
 }
 
 .blog-image {
