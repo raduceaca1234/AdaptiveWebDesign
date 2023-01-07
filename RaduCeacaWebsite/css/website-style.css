@@ -315,10 +315,10 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   color: #fff;
 }
 .main-header .menu-wrapper ul li a:hover {
-  color: #bc4b00;
+  color: #FFAE42;
 }
 .main-header .menu-wrapper ul li.active a {
-  color: #bc4b00;
+  color: #FFAE42;
   font-weight: bold;
 }
 .main-header .menu-wrapper ul li ul {
