@@ -138,7 +138,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: .89em;
   line-height: 1.75;
-  color: #777777;
+  color: #575757;
   background-color: #efefef;
   text-rendering: optimizeLegibility;
 }
@@ -179,7 +179,7 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: #777777;
+  border-color: #575757;
 }
 
 .text-right {
@@ -356,7 +356,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 .main-header .menu-wrapper ul li ul li a {
   display: block;
   padding: 10px;
-  color: #777777 !important;
+  color: #575757 !important;
 }
 .main-header .menu-wrapper ul li ul li a:hover {
   color: #bc4b00 !important;
