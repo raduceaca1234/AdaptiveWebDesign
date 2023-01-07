@@ -520,6 +520,10 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   margin-right: 5%;
 }
 
+.box-content2 .p {
+  color:rgba(0, 0, 0, 0.9);
+}
+
 @media screen and (max-width: 768px) {
   .box-content2 {
     background: white;
@@ -726,14 +730,20 @@ h3.grid-heading {
 }
 
 .post-masonry2 .blog-body h3.post-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
 }
 .post-masonry2 .blog-body h3.post-title a {
-  color: #2c2c2c;
+  color: #000;
 }
 .post-masonry2 .blog-body h3.post-title a:hover {
   color: #FF9C5A;
+}
+
+.post-masonry2 .blog-body p.post-parag {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(60, 60, 60);
 }
 
 .post-masonry {
@@ -755,7 +765,7 @@ h3.grid-heading {
   font-weight: normal;
 }
 .post-masonry .blog-body h3.post-title a {
-  color: #2c2c2c;
+  color: #000;
 }
 .post-masonry .blog-body h3.post-title a:hover {
   color: #FF9C5A;
