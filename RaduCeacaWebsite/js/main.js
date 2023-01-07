@@ -42,30 +42,6 @@ jQuery(document).ready(function($) {
 
         $('.sub-menu').addClass('animated fadeInRight');
 
-
-
-    /************** Search Overlay *********************/
-        $('#search-icon').on('click', function() {
-            $('#search-overlay').removeClass('animated bounceOutUp');
-            $('#search-overlay').fadeIn(0).addClass('animated bounceInDown');
-            $('.search-form-holder input[type="search"]').focus();
-            return false;
-        });
-
-        $('.close-search').on('click', function() {
-            $('#search-overlay').removeClass('animated bounceInDown');
-            $('#search-overlay').addClass('animated bounceOutUp');
-            return false;
-        });
-
-        jQuery(document).keyup(function(e) {
-    	    if (e.keyCode === 27) {
-    	        $('#search-overlay').removeClass('animated bounceInDown');
-    	        $('#search-overlay').addClass('animated bounceOutUp');
-    	        return false;
-    	    } // esc
-    	});
-
     
 
 
