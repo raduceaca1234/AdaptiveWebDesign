@@ -258,7 +258,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 .main-header {
   width: 100%;
   min-height: 96px;
-  background-color: #000;
+  background-color: #025581;
   padding: 30px 60px;
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
